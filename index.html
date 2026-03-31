@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Budget Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌍 Travel Budget Planner</h1>
+
+    <input type="text" id="place" placeholder="Enter Destination">
+    <input type="number" id="days" placeholder="Number of Days">
+    <input type="number" id="budget" placeholder="Total Budget (₹)">
+
+    <button onclick="calculate()">Plan Trip</button>
+    <button class="clear" onclick="clearData()">Clear</button>
+
+    <div id="result" class="card"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
